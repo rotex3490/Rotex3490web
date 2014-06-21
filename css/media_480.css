@@ -1,0 +1,225 @@
+/* MEDIA QUERIES--------------------------------------------------------------------*/
+
+@media (max-width:480px){
+	
+	.inside, .content_section.inside_30 {
+		margin: 0px 34px;
+	}
+
+	aside{
+		display: none;
+	}
+
+	.main{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.width_50{
+		width: auto;
+	}
+
+	.copenhagen .width_50{
+		padding-left: 0px;
+		width: auto;
+	}
+
+	h2.headline{
+		font-size: 16px;
+		font-weight: normal;
+        letter-spacing: 1px;
+	}
+
+	.content_section {
+		width: auto;
+		margin: 0px;
+	}
+
+	.content_article {
+		padding-bottom: 60px;
+		width: auto;
+		margin: 0px;
+	}
+
+	footer .w4{
+		width: 50%;
+	}
+
+	.product_registration {
+		width: 100%;
+	}
+
+	.copenhagen_images .img_1{
+		position: relative;
+	}
+
+	.copenhagen_images .img_1{
+		width: 100%;
+	}
+
+	.copenhagen_images,
+	.materials_images,
+	.colors_images,
+	.design_images,
+	.sound_images{
+		height: auto;
+	}
+
+	.copenhagen_images img,
+	.materials_images img,
+	.colors_images img,
+	.design_images img,
+	.sound_images img{
+		position: initial;
+		width: 100% !important;
+		margin: 12px 0px;
+	}
+
+	.copenhagen_images .img_2,
+	.copenhagen_images .img_3,
+	.copenhagen_images .img_5,
+	.colors_images .img_3,
+	.colors_images .img_4,
+	.colors_images .img_6,
+	.design_images .img_3{
+		display: none;
+	}
+
+	.materials_images .img_1{
+		width: 46% !important;
+		float: left;
+	}
+
+	.materials_images .img_2{
+		width: 48% !important;
+		float: right;
+	}
+
+	.features_item{
+	text-align: center;
+	padding-right: 0px;
+	margin-bottom: 48px;
+	width: 100%;
+	height: 150px;
+	}
+
+	.features_item.item_3, .features_item.item_4 {
+		margin-top: 0px;
+	}
+
+	.features li{
+		background: none;
+	}
+
+	#lookbook .imageWrapper{
+		height: 60%;
+	}
+
+	#lookbook .imageWrapper img{
+		max-height: none;
+		max-width: 100%;
+	}
+
+	#lookbook .links{
+		position: initial;
+		margin: 0px;
+		width: auto;
+	}
+
+	#lookbook #next, 
+	#lookbook #prev{
+		top: 32%;
+	}
+
+
+	.logo_white {
+		padding-top: 16px;
+	}
+
+	.logo_dark {
+		float: left;
+		padding-top: 20px;
+	}
+	
+	.logo_dark img {
+		height: 26px;
+	}
+
+	.logo_white img {
+	height: 160px;
+	}
+
+	.arrow_bottom{
+		display: none;
+	}
+
+	.pulled_nav .logo_white {
+		margin-left: -150px;
+	}
+
+	.pulled_nav .nav_btn_dark {
+		position: relative;
+	}
+
+	.main_nav_white ul, .main_nav_dark ul {
+		float: none;
+		padding-top: 50px;
+	}
+
+	.nav_btn_white {
+		margin-top: 25px;
+	}
+		
+	.pulled_nav .nav_btn_white {
+		margin-right: 185px;
+	}
+
+	.nav_btn_white, .nav_btn_dark {
+		display: block;
+	}
+	
+	
+	#menuTrigger .nav_btn_dark.nav_trigger {
+		right: 34px;
+		top: 0px;
+		display: block;
+	}
+
+	.about_info .w2 {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.copenhagen footer {
+		margin-top: 0px;
+	}
+
+	footer .w4 {
+		width: 100%;
+	}
+
+	.footer_box {
+		margin: 0px 0px;
+		margin-bottom: 40px;
+	}
+
+	footer .inside {
+		padding: 20px 0px;
+	}
+
+	footer .newsletter_form .surname {
+		width: 55%;
+		float: right;
+	}
+
+	#pressLogin {
+		margin: 0px;
+	}
+}
+
+
+@media (max-width: 580px){
+	.arrow_bottom{
+		display: none;
+	}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

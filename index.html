@@ -1,0 +1,405 @@
+
+	
+	<!DOCTYPE html>
+<html xmlns:umbraco="http://umbraco.org" lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="description" content="Rotex3490年度手冊">
+	<meta name="keywords" content="Rotex3490, RYE, 交換學生, 歸國交換學生, 國際扶輪 北北基宜蘭花, rotex, 3490">
+    <meta charset="utf-8">
+    <meta name="robots" content="index,nofollow" />
+    <title>Rotex3490</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+
+	  
+    <!-- styles -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/media_1024.css" rel="stylesheet">
+	<link href="css/media_768.css" rel="stylesheet">
+    <link href="css/media_480.css" rel="stylesheet">
+	  
+	<script src="Scripts/jquery-1.8.2.js"></script>
+	<script src="Scripts/jquery.cookie.js"></script>
+	<script src="Scripts/jquery.md5.js"></script>
+	<script src="Scripts/jquery.mobile.js"></script>  
+	<script src="Scripts/waypoints.js"></script>
+	<script src="Scripts/rtx.js"></script>
+	<script src="Scripts/rtx_slider.js"></script>
+	<script>
+
+      //--------------------------------------------------------------------------------------------------------------------------
+
+      $(window).scroll(function(e) {
+          animateNavigation();
+		  var checkDevice = jQuery.browser.mobile;
+		  if(!checkDevice){
+          	animateImages('.lazy_load');
+		  }else{
+		  	$(".lazy_load").removeClass("lazy_load");
+		  }  
+		  initSideNav();
+		  footerCollisionCopenhagen();
+      });
+
+      //-------------------------------------------------------------------------------------------------------------------------
+		
+      $(function() {  
+
+		var main_images = [
+		
+		  'media/cover/1.jpg',
+		  'media/cover/2.jpg', 
+		  
+	
+		  
+		];
+
+		var images = [
+			
+			'media/1.jpg',
+			'media/2.jpg',
+			'media/3.jpg',
+			'media/4.jpg',
+			'media/5.jpg',
+			'media/6.jpg',
+			'media/7.jpg',
+			'media/8.jpg',
+			'media/9.jpg',
+			'media/10.jpg',
+			'media/11.jpg',
+			'media/12.jpg',
+			'media/13.jpg',
+			'media/14.jpg',
+			'media/15.jpg',
+			'media/16.jpg',
+			'media/17.jpg',
+			'media/18.jpg',
+			'media/19.jpg',
+			'media/20.jpg',
+		];
+
+		$("ul#topMenu li:first a").attr('href', '#Rotex3490');
+		$("ul#topMenuWhite li:first a").attr('href', '#Rotex3490');
+		$(".side_nav li:first-child").addClass("active");
+		
+		randomizeMainImage(main_images);
+       animateAnchor();
+		scrollSideNav();
+		scrollToDiv();
+		changeTopMenuLink();
+		setNavigation();
+		
+		  
+		$(".popup").click(function (event) {
+			event.preventDefault();
+			window.open($(this).attr("href"), "popupWindow", "width=600,height=600,scrollbars=yes");
+		});
+
+		$.browser.device = (/android|webos|iphone|ipod|blackberry|iemobile|opera mini|windows phone/i.test(navigator.userAgent.toLowerCase()));		
+		if(!$.browser.device){
+			rtxSlider('#lookbook','.lookbook_item','#mainImage',images);
+		}
+			
+		sideNav('.content_wrapper','.main_nav_dark','.nav_trigger');
+		setNavigation();
+		
+		$('.gray_button').hide();
+		
+		
+      });
+
+      //--------------------------------------------------------------------------------------------------------------------------
+
+    </script>
+</head>
+  <body>  
+	  
+	
+	<div class="content_wrapper">
+      <div id="main_section">
+        <div class="inside">
+          <div class="main_header">
+			  <div class="logo_white"><img src="images/logo_white.png" /></div>
+			  <div class="nav_btn_white nav_trigger"></div>
+			  <nav class="main_nav_white">
+				  <ul id="topMenu"><li class=""><a href="#Rotex3490">Rotex3490</a></li><li class=""><a href="support/index.html">年度手冊</a></li><li class=""><a href="about/index.html">聯絡我們</a></li><li class="hide"><a href="privacy-policy-and-cookies/index.html">Privacy Policy and Cookies</a></li><li class="hide"><a href="p-login/index.html">P Login</a></li></ul>
+			  </nav>
+	      </div>
+		  <div class="arrow_bottom blink"><a href="#Rotex3490"><img src="images/arrow_down.png"></a></div>
+        </div> 
+      </div>	
+		
+	  <div class="copenhagen">
+		    <!--HEADER ********************************************************************************* -->
+            <header class="dark_header">
+              <section class="inside">
+                <div class="logo_dark"><a href="index.html"><img src="images/logo_dark.png" /></a></div>
+				<div class="nav_btn_dark nav_trigger"></div>
+                <nav class="main_nav_dark">
+					
+					<div id="menuTrigger"><div class="nav_btn_dark nav_trigger"></div></div>
+					
+					<ul id="topMenuWhite"><li class=" active"><a href="/index.html">Rotex3490</a></li><li class=""><a href="support/index.html">年度手冊</a></li><li class=""><a href="about/index.html">聯絡我們</a></li></ul>
+					
+                </nav>
+                <div class="clearfix"></div>
+              </section>
+            </header>
+		  
+		  <!--CONTENT ********************************************************************************** -->
+		  <div class="main_content_wrapper">
+			  <div class="inside">
+					<!--SIDE NAVIGATION **************************************************************** -->
+					<aside class="content_section">
+					  <nav class="side_nav">
+						<ul>
+							<li><a href="#Rotex3490">Rotex3490</a></li>
+							<li><a href="#Goal">我們的目標</a></li>
+							<li><a href="#Event">年度活動</a></li>
+							<li><a href="#Old">參與心得分享</a></li>
+							<li><a href="#Notonly">Rotex不止這樣</a></li>
+							<li><a href="#Officer">幹部</a></li>
+						
+							
+							  </ul>
+							</li>
+						  </ul>
+					  </nav>
+					</aside>
+				  
+				  	 <!--MAIN CONTENT ****************************************************************** -->
+                	<section class="content_section center_text main">
+						
+					  <div class="copenhagen_article" id="Rotex3490">
+						<article class="content_article width_552px">
+						  <h2 class="headline">Rotex3490</h2>
+						  <p>We are family!! WEWEEWEW<br></p>
+						  <p>WWEWEEEWWEW<br></p>
+						  <p>EWEWEWEWEEWWE</p>
+						</article>
+	
+						<article class="content_article copenhagen_images width_840px">
+						  <img src="media/1.jpg" class="img_1 lookbook_item" id="0" />
+						  <img src="media/2.jpg" class="img_2 lookbook_item" id="1" alt="Rotex3490" />
+						  <img src="media/3.jpg" class="img_3 lookbook_item lazy_load" id="2" alt="Rotex3490" />
+						  <img src="media/4.jpg" class="img_4 lookbook_item lazy_load" id="3" alt="Rotex3490" />
+						  <img src="media/5.jpg" class="img_5 lookbook_item lazy_load" id="4" alt="Rotex3490" />
+						</article>
+					  </div>
+						
+						
+					  <div class="materials_article" id="Goal">
+						<article class="content_article width_552px">
+						  <h2 class="headline">我們的目標</h2>
+						  <p><span>ROTEX成員間透過經驗交流，使剛歸國之交換學生能夠順利重新融入台灣生活，利用生活經驗分享彼此情感之聯誼及交流，協助前來台灣之外國交換學生順利
+			融入本地文化。<br>（二）透過具有交換經驗的歸國學生與外國交換學生的經驗分享，以世界
+			性之聯誼，增進國際間之瞭解、親善與和平。<br>（三）會員建立快樂學習、積極付出和熱心服務的精神。</span></p>
+						  
+						</article>
+	
+						<article class="content_article materials_images width_840px">
+						  <img src="media/6.jpg" class="img_1 lookbook_item" id="5" alt="Rotex3490" />
+						  <img src="media/7.jpg" class="img_2 lookbook_item" id="6" alt="Rotex3490" />
+						  <img src="media/8.jpg" class="img_3 lookbook_item lazy_load" id="7" alt="Rotex3490" />
+						  <img src="media/9.jpg" class="img_4 lookbook_item lazy_load" id="8" alt="Rotex3490" />
+						</article>
+					  </div>
+						
+					  <div class="colors_article" id="Event">
+						<article class="content_article width_552px">
+						  <h2 class="headline">年度活動</h2>
+						  <p class="ecxmsonormal">嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿</p>
+						  
+						</article>
+	
+						<article class="content_article colors_images width_840px">
+						  <img src="media/10.jpg" class="img_1 lookbook_item" id="9" alt="Rotex3490" />
+						  <img src="media/11.jpg" class="img_2 lookbook_item lazy_load" id="10" alt="Rotex3490" />
+						  <img src="media/12.jpg" class="img_3 lookbook_item lazy_load" id="11" alt="Rotex3490" />
+						  <img src="media/13.jpg" class="img_4 lookbook_item lazy_load" id="12" alt="Rotex3490" />
+						  <img src="media/14.jpg" class="img_5 lookbook_item lazy_load" id="13" alt="Rotex3490" />
+						  <img src="media/15.jpg" class="img_6 lookbook_item lazy_load" id="14" alt="Rotex3490" />
+						</article>
+					  </div>
+						
+					  <div class="design_article" id="Old">
+						<article class="content_article width_552px">
+						  <h2 class="headline">參與心得分享</h2>
+						  <p>
+						    　　當我是在國外的時候，就跟接待地區的Rotex很要好，雖然他們常說我們Inbound真的很難管，儘管我們老是無視於規定，他們還是對我們這些Inbound很好，這讓我對Rotex有了很好的印象。<br>
+						    　　回國後想說或許也可以成為Rotex，剛開始出席活動，雖然跟大部分的Rotex都還不太熟，但是發現他們做事認真負責，就算是被分配到清理廚餘也是盡力去完成，而且大家聚在一起時氣氛很歡樂，在多參加幾次活動且大部分的Rotex比較熟後，發現優點不只這些，因為Rotex其實是個志願性團體，要每位志工全心全意的去付出是非常困難的事情，但卻可以看到每個出席活動的Rotex盡心盡力的把活動辦好，有時可能光個檢討會就可以討論到兩三個小時，想必Rotex非常具有向心力。<br>
+						    　　而我對Rotex感受最深的就像個一家人，共同有著曾經都是交換學生的經驗，大家就像是兄弟姐妹叔叔阿姨一樣的親密，一起出席活動，一起分工合作，一起吃飯，一起唱歌，一起歡笑！<br>
+						    第八屆Rotex 1213 美國 王捷弘</p>
+						  <p>&nbsp;</p>
+						  <p>咻一下就過了，回國至今也已經要一年，這段期間學校課業繁忙，但我還是很喜歡擠出時間和Rotex們一起完成每次的任務。<br>
+						    　　還記得出國前，看著Rotex們用心帶領我們每一次的活動，一開始以為只是一般的工作人員，沒想到每次完成一天的活動後還有檢討會也有聚餐，檢討會一開就是一兩個小時，在檢討會看著大家認真的模樣和平常真的很不同，每一個環節都非常仔細的提出來討論，學習負責任、互相體貼、互相幫助，在不知不覺中我也跟著成長了，聚餐中大家笑得非常燦爛，這樣的氣氛讓我好想一直待著，和Rotex們之間沒有距離，他們也很熱衷於照顧學弟妹。<br>
+						    　　最深刻的一次是因為我擔心學校課業而掙扎是否參加講師研習會，Rotex跳出來要我不要擔心，他說我們就像是家人一樣，學業有不會的地方我們也可以幫你克服！在這段期間感受到了這個大家庭的溫暖，現在只希望高中快點畢業，可以有更多時間投入這些工作、聚會，這段期間我還參與了幾項活動，包括在龍潭渴望會館OBT訓練會、交換心得分享會，接下來還有我最期待的大旅行，希望未來能像他們一樣帶領Rebound，讓他們也感受到Rotex的溫暖，一起投入這些活動，和大家一起努力學習、努力玩！<br>
+						    第八屆 Rotex 1213 韓國 楊舒芸</p>
+						  <p class="ecxmsonormal">&nbsp;</p>
+						</article>
+	
+						<article class="content_article width_552px designer_images">
+						  <img src="media/16.jpg" class="img_1 lookbook_item" id="15" alt="Rotex3490" />
+						</article>
+						<div class="content_article width_552px">
+                          <p>一眨眼～自己也在不知不覺中晉升成為了一位Rotex，覺得非常的不可思議，還記得當時國小的我懵懵懂懂的和哥哥一同參與每一次訓練會，在訓練的過程之中，看到許多Rotex大哥哥大姊姊們非常用心且親切的照顧每位Outbound學生，用自身的經驗提醒他們要注意甚麼，分享他們在國外交換時許多特別的自身經歷，當時的我，用羨慕的眼神看著哥哥出國，用崇拜的眼光看著那些充滿熱誠且對自己非常有自信的Rotex，立志自己長大後一定也要和哥哥一樣，當位成功的交換小天使，並且在回國後和Rotex一樣，認真努力的付出，時光飛逝，歲月如梭～我就這麼的從德國回來了，也變成了一位成熟的高中生，一開始對Rotex不熟悉的我，覺得有點陌生害怕，但經過一次又一次的服務和相處後，覺得他們就像我的親哥哥親姊姊般照顧我，疼我，無形之中我們就像大家庭般，相處的非常和睦，也因為這樣使我們培養出無比的默契和感情，在這短短服務的一年當中，學到了很多東西，也在他們身上學到了許多在人生當中無法學到的事物，希望在未來，可以一直服務下去，也謝謝所有的扶輪社員及委員們，沒有你們就沒有那麼好的交換活動和努力用心付出的Rotex們，沒有你們也就沒有現在的我，我愛你們！<br>第八屆Rotex 1213 德國 辜冠玉</p>
+                          <p>&nbsp;</p>
+                          <p>一年了，轉眼之間，從Outbound轉變成Rebound的身分已經長達了12個月了，要我說有甚麼不適應的地方，除了有點想念美國，就是有點想念比現在瘦八公斤的自己吧。當初，從國外一回來，參加了歸國報告大會後，發現原來大家在國外的生活也是一樣的這麼有趣，在報告的時候，還透漏著留戀在國外的情感，想念在國外時與交換學生在一起瘋狂的日子。　　回到台灣之後，調適不了生活上這麼大的轉變，於是抱著嘗試的想法參加Rotex的活動，發現Rotex就像是在國外時那樣，交換學生的大家庭，每一次出活動有歡笑有熱血，而且當我在課業上有疑惑，未來的路有疑惑，學長姐們總是會用他們的經驗分享給我們，總而言之就是超罩的！<br>第八屆Rotex 1213 美國 蔡榮豪</p>
+                          <h3 class="headline">&nbsp;</h3>
+</div>
+						<article class="content_article design_images width_840px">
+						  <img src="media/17.jpg" class="img_1 lookbook_item" id="16" alt="Rotex3490" />
+						  <img src="media/18.jpg" class="img_2 lookbook_item" id="17" alt="Rotex3490" />
+						  <img src="media/19.jpg" class="img_3 lookbook_item lazy_load" id="18" alt="Rotex3490" />
+						</article>
+					  </div>
+						
+					  <div class="sound_article" id="Notonly">
+						<article class="content_article width_552px">
+						  <h2 class="headline">Rotex不僅只這樣</h2>
+						  <p><span>我們不止這樣哦！還有OBT哦！還有大旅行哦！還有MT pa 哦</span></p>
+						  <p>還有ko大賽之我不會被ko喔！</p>
+						</article>
+	
+						<article class="content_article width_840px sound_images">
+						  <img src="media/20.jpg" class="img_1 lookbook_item" id="19" alt="Rotex3490" />
+						</article>
+					  </div>
+						
+						
+					  <div class="features_article" id="Officer">
+						<article class="content_article width_552px">
+						  <h2 class="headline">幹部</h2>
+						  
+						</article>
+	
+						<article class="content_article features width_840px">
+	
+						  <div class="features_item item_1">
+							<h3 class="headline">會長</h3>
+							<ul>
+<li>劉采芃</li>
+</ul>
+						  </div>
+	
+						  <div class="features_item item_2">
+							<h3 class="headline">副會長</h3>
+							<ul>
+							  <li>邱凡真</li>
+                            </ul>
+						  </div>
+	
+						  <div class="features_item item_3">
+							<h3 class="headline">幹部</h3>
+							<ul>
+<li>文書<br>XXX</li>
+<li>公關<br>XXX</li>
+<li>外展協會協調人<brXXX></li>
+                            </ul>
+						  </div>
+	
+						  <div class="features_item item_4">
+							<h3 class="headline">任務型幹部</h3>
+							<ul>
+<li>依個活動設召集人</li>
+</ul>
+						  </div>
+						
+						<div class="clearfix"></div>
+						</article>
+					  </div>
+						
+				  	</section>
+			  </div>
+		  </div>
+		  
+          
+          
+          
+          
+		  <!--FOOTER *********************************************************************************** -->
+<footer>
+	
+<section class="inside light_gray">
+	
+<article class="w4 customer_services">
+<div class="footer_box">
+
+
+</div>
+</article>
+	
+	<article class="w4 contact_us">
+		<div class="footer_box">
+		<h4>CONTACT US</h4>
+				  
+	
+		<div class="footer_gray">Email:</div>
+		<div>rotex3490@gmail.com</div>
+        
+       <div class="footer_gray">聯絡公關：</div>
+       <div>超級凡</div>
+       <div>0900-000-000</div>
+        
+        
+		</div>
+	</article>
+	
+	
+    <article class="w4 more_info">
+		<div class="footer_box">
+		<h4>MORE INFO</h4>
+				
+		<ul><li><a href="http://rye.rid3490.org.tw/">RYE3490</a></li>
+    	<li><a  href="http://www.rid3490.org.tw/">國際扶輪3490地區</a></li>
+		</ul>
+		</div>
+	</article>
+	
+	<article class="w4 follow">
+		<div class="footer_box" id="externalLinks">
+		<h4>Join US</h4>
+		<ul><li><a href="https://www.facebook.com/groups/rotex3490taiwan/"><img src="images/icon_facebook.png" /></a></li>
+		</ul>
+		</div>
+	</article>
+	
+<!-------------------------------------------Follow us   -->
+<article class="w4 follow">
+		  <div class="footer_box" id="externalLinks">
+				  <h4>FOLLOW US</h4>
+				  <ul>
+					<li><a href="https://www.facebook.com/pages/Rotex3490/282259201785095"><img src="images/icon_facebook.png"></a></li>
+					<li><a href="http://instagram.com/rotex3490"><img src="images/icon_instagram.png"></a></li>
+					
+				  </ul>
+				</div>
+</article>
+    
+    
+			  <div class="clearfix"></div>
+			</section>
+	
+    <!--copyright **************************************************************************************** -->
+    
+			<section class="copyright"><p class="center_text"><img src="images/logo_footer.png">© 2014 All rights Reserved</p></section>
+		  </footer>
+	  </div>
+		
+    </div>
+	  
+    <!--LOOKBOOK **************************************************************************************** -->
+    <div id="lookbook">
+      <div id="close">X</div>
+      <div class="imageWrapper"><img src="" id="mainImage" alt="Rotex3490" /></div>
+      <div id="prev"></div>
+      <div id="next"></div>
+	  
+      </div>
+    </div>
+	  
+  </body>
+</html>	
+
+<!-- Localized -->
