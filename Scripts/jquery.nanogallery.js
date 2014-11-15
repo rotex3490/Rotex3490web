@@ -50,8 +50,8 @@ $(document).ready(function () {
     jQuery("#nanoGallery").nanoGallery({
         kind: 'flickr',
         userID: '25659032@N07',
-		flickrSkipOriginal: true,
-        
+		
+      
         // uncomment this line to display one specific album:
         // photoset:'72157594299597591',
         viewerToolbar: {
