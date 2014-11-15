@@ -50,7 +50,7 @@ $(document).ready(function () {
     jQuery("#nanoGallery").nanoGallery({
         kind: 'flickr',
         userID: '25659032@N07',
-		flickrSkipOriginal: 'true',
+		flickrSkipOriginal: true,
         
         // uncomment this line to display one specific album:
         // photoset:'72157594299597591',
@@ -61,19 +61,21 @@ $(document).ready(function () {
         thumbnailWidth: 125,
         thumbnailHeight: 125,
         thumbnailLabel: {
-            displayDescription: true,
+            displayDescription: false,
 			titleMaxLength: 10,
 			descriptionMaxLength: 10,
             position: 'overImageOnBottom'
         },
         thumbnailHoverEffect:'borderLighter,labelAppear75',
+		
+		viewerToolbar: {
+			style: 'stuckImage',
+			standard: 'minimizeButton,previousButton,pageCounter,nextButton,playPauseButton,fullscreenButton,infoButton,linkOriginalButton,closeButton'
+				
+		},
     });
-	
-	var viewerToolbar ={
-		display: 'false'
-	
-	
-	}
+
+
 });
 
 // ##########################################
