@@ -54,10 +54,14 @@ $(document).ready(function () {
         
         // uncomment this line to display one specific album:
         // photoset:'72157594299597591',
-        
+        viewerToolbar: {
+			style: 'stuckImage',
+			standard: 			'minimizeButton,previousButton,pageCounter,nextButton,playPauseButton,fullscreenButton,infoButton,linkOriginalButton,closeButton'
+				
+			},
         // uncomment this line to display full photostream (v5.0.0):
         // photoset:'none',
-		
+		thumbnailHoverEffect:'borderLighter,labelAppear75',
         thumbnailWidth: 125,
         thumbnailHeight: 125,
         thumbnailLabel: {
@@ -65,14 +69,10 @@ $(document).ready(function () {
 			titleMaxLength: 10,
 			descriptionMaxLength: 10,
             position: 'overImageOnBottom'
-        },
-        thumbnailHoverEffect:'borderLighter,labelAppear75',
+       		 },
+        
 		
-		viewerToolbar: {
-			style: 'stuckImage',
-			standard: 'minimizeButton,previousButton,pageCounter,nextButton,playPauseButton,fullscreenButton,infoButton,linkOriginalButton,closeButton'
-				
-		},
+		
     });
 
 
