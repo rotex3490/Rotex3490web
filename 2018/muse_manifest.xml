@@ -1,0 +1,57 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1472951933464">
+  <folder name="css">
+    <file name="site_global.css" crc="3916556066"/>
+    <file name="index.css" crc="4080486268" ref="index"/>
+    <file name="nomq_index.css" crc="181671708" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
+    <file name="museutils.js" crc="3851988764" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="169177150" ref="index"/>
+    <file name="webpro.js" crc="4067903014" ref="index"/>
+    <file name="musewpslideshow.js" crc="4265225696" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4075157096" ref="index"/>
+    <file name="touchswipe.js" crc="474750357" ref="index"/>
+    <file name="pie.js" crc="3831537696" ref="index"/>
+    <file name="form_check.php" crc="121412709" ref="index"/>
+    <file name="form_throttle.php" crc="4268640971" ref="index"/>
+    <file name="form_process.php" crc="444429785" ref="index"/>
+    <file name="form-u1910.php" crc="4283510825" ref="index"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="516761069" ref="index"/>
+    <file name="require.js" crc="4108833657" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="8.jpg" crc="3781570570" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="7.jpg" crc="4066208852" seo="true" ref="index"/>
+    <file name="6.jpg" crc="524554240" seo="true" ref="index"/>
+    <file name="5.jpg" crc="4157665130" seo="true" ref="index"/>
+    <file name="4.jpg" crc="497429104" seo="true" ref="index"/>
+    <file name="3.jpg" crc="106296675" seo="true" ref="index"/>
+    <file name="2.jpg" crc="4080557329" seo="true" ref="index"/>
+    <file name="1.jpg" crc="52639916" seo="true" ref="index"/>
+    <file name="0.jpg" crc="4073644454" seo="true" ref="index"/>
+    <file name="white_arrow_circle.svg" crc="4091061406" seo="true" ref="index"/>
+    <file name="white_arrow_circle_poster_.png" crc="246316649" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="1472937277_online_social_media_facebook.svg" crc="4163620935" seo="true" ref="index"/>
+    <file name="1472937277_online_social_media_facebook_poster_.png" crc="126485120" ref="index"/>
+    <file name="1472937362_instagram_online_social_media_photo.svg" crc="216723272" seo="true" ref="index"/>
+    <file name="1472937362_instagram_online_social_media_photo_poster_.png" crc="3897709722" ref="index"/>
+    <file name="1472937325_mail_email_envelope_send_message.svg" crc="3845465813" seo="true" ref="index"/>
+    <file name="1472937325_mail_email_envelope_send_message_poster_.png" crc="4061135795" ref="index"/>
+    <file name="u1926-17.png" crc="361711002" ref="index"/>
+    <file name="u1926-17-r.png" crc="3898892870" ref="index"/>
+    <file name="u1926-17-m.png" crc="96184495" ref="index"/>
+    <file name="u1926-17-fs.png" crc="3913113090" ref="index"/>
+    <file name="logo.svg" crc="3898651724" seo="true" ref="index"/>
+    <file name="logo_poster_.png" crc="4155438965" ref="index"/>
+    <file name="u1926-172.png" crc="361711002" ref="index"/>
+    <file name="u1926-17-r2.png" crc="3898892870" ref="index"/>
+    <file name="u1926-17-m2.png" crc="96184495" ref="index"/>
+    <file name="u1926-17-fs2.png" crc="3913113090" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4485487" seo="true" mt="1472951842110" redirect="true"/>
+</manifest>
