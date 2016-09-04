@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1473010625478">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1473013252143">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
     <file name="index.css" crc="15192057" ref="index"/>
@@ -53,5 +53,5 @@
     <file name="u1926-17-m2.png" crc="96184495" ref="index"/>
     <file name="u1926-17-fs2.png" crc="3913113090" ref="index"/>
   </folder>
-  <file name="index.html" crc="364160248" seo="true" mt="1473010597531" redirect="true"/>
+  <file name="index.html" crc="4242831803" seo="true" mt="1473013231835" redirect="true"/>
 </manifest>
