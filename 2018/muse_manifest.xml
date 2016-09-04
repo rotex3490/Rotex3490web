@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1472952210830">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1473010625478">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
     <file name="index.css" crc="15192057" ref="index"/>
@@ -8,7 +8,7 @@
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
     <file name="museutils.js" crc="3851988764" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="225371387" ref="index"/>
+    <file name="museconfig.js" crc="169177150" ref="index"/>
     <file name="webpro.js" crc="4067903014" ref="index"/>
     <file name="musewpslideshow.js" crc="4265225696" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4075157096" ref="index"/>
@@ -53,5 +53,5 @@
     <file name="u1926-17-m2.png" crc="96184495" ref="index"/>
     <file name="u1926-17-fs2.png" crc="3913113090" ref="index"/>
   </folder>
-  <file name="index.html" crc="376518241" seo="true" mt="1472952208315" redirect="true"/>
+  <file name="index.html" crc="364160248" seo="true" mt="1473010597531" redirect="true"/>
 </manifest>
