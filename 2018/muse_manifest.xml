@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1473013252143">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="convention.rotex.org" resolutions="1x" timestamp="1473254101443">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="15192057" ref="index"/>
-    <file name="nomq_index.css" crc="3812337776" ref="index"/>
+    <file name="index.css" crc="3996341408" ref="index"/>
+    <file name="nomq_index.css" crc="3982837768" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
@@ -42,16 +42,16 @@
     <file name="1472937362_instagram_online_social_media_photo_poster_.png" crc="3897709722" ref="index"/>
     <file name="1472937325_mail_email_envelope_send_message.svg" crc="3845465813" seo="true" ref="index"/>
     <file name="1472937325_mail_email_envelope_send_message_poster_.png" crc="4061135795" ref="index"/>
-    <file name="u1926-17.png" crc="361711002" ref="index"/>
-    <file name="u1926-17-r.png" crc="3898892870" ref="index"/>
-    <file name="u1926-17-m.png" crc="96184495" ref="index"/>
-    <file name="u1926-17-fs.png" crc="3913113090" ref="index"/>
+    <file name="u1926-17.png" crc="264117017" ref="index"/>
+    <file name="u1926-17-r.png" crc="35143887" ref="index"/>
+    <file name="u1926-17-m.png" crc="499486981" ref="index"/>
+    <file name="u1926-17-fs.png" crc="216542069" ref="index"/>
     <file name="logo.svg" crc="3898651724" seo="true" ref="index"/>
     <file name="logo_poster_.png" crc="4155438965" ref="index"/>
-    <file name="u1926-172.png" crc="361711002" ref="index"/>
-    <file name="u1926-17-r2.png" crc="3898892870" ref="index"/>
-    <file name="u1926-17-m2.png" crc="96184495" ref="index"/>
-    <file name="u1926-17-fs2.png" crc="3913113090" ref="index"/>
+    <file name="u1926-172.png" crc="21070869" ref="index"/>
+    <file name="u1926-17-r2.png" crc="4170775591" ref="index"/>
+    <file name="u1926-17-m2.png" crc="49050365" ref="index"/>
+    <file name="u1926-17-fs2.png" crc="306304755" ref="index"/>
   </folder>
-  <file name="index.html" crc="4242831803" seo="true" mt="1473013231835" redirect="true"/>
+  <file name="index.html" crc="116779691" seo="true" mt="1473254048523" redirect="true"/>
 </manifest>
